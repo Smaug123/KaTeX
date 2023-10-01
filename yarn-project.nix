@@ -117,6 +117,7 @@ let
       else
         # - If the package.json has a `files` field, only files matching those patterns are copied
         # - Otherwise all files are copied.
+        yarn build
         yarn pack --out package.tgz
         mkdir -p "$out/libexec/$name"
         tar xzvf package.tgz --directory "$out/libexec/$name" --strip-components=1

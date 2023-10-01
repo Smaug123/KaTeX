@@ -46,3 +46,4 @@ fonts.tar.gz
 temp/
 
 /result
+.DS_Store
