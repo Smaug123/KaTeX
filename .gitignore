@@ -47,3 +47,5 @@ temp/
 
 /result
 .DS_Store
+
+.profile*
